@@ -2,50 +2,87 @@ package com.service.country.bean;
 
 public class WorldCountry {
 	
-	private String countryName;
-	private String capitalName;
-	private String capitalLatitude;
-	private String capitalLongitude;
-	private String countryCode;
-	private String continentName;
+	private String CountryName;
+	private String CapitalName;
+	private String CapitalLatitude;
+	private String CapitalLongitude;
+	private String CountryCode;
+	private String ContinentName;
+	
+	
 	
 	public String getCountryName() {
-		return countryName;
+		return CountryName;
 	}
+
+
+
 	public void setCountryName(String countryName) {
-		this.countryName = countryName;
+		CountryName = countryName;
 	}
+
+
+
 	public String getCapitalName() {
-		return capitalName;
+		return CapitalName;
 	}
+
+
+
 	public void setCapitalName(String capitalName) {
-		this.capitalName = capitalName;
+		CapitalName = capitalName;
 	}
+
+
+
 	public String getCapitalLatitude() {
-		return capitalLatitude;
+		return CapitalLatitude;
 	}
+
+
+
 	public void setCapitalLatitude(String capitalLatitude) {
-		this.capitalLatitude = capitalLatitude;
+		CapitalLatitude = capitalLatitude;
 	}
+
+
+
 	public String getCapitalLongitude() {
-		return capitalLongitude;
+		return CapitalLongitude;
 	}
+
+
+
 	public void setCapitalLongitude(String capitalLongitude) {
-		this.capitalLongitude = capitalLongitude;
+		CapitalLongitude = capitalLongitude;
 	}
+
+
+
 	public String getCountryCode() {
-		return countryCode;
+		return CountryCode;
 	}
+
+
+
 	public void setCountryCode(String countryCode) {
-		this.countryCode = countryCode;
+		CountryCode = countryCode;
 	}
+
+
+
 	public String getContinentName() {
-		return continentName;
+		return ContinentName;
 	}
+
+
+
 	public void setContinentName(String continentName) {
-		this.continentName = continentName;
+		ContinentName = continentName;
 	}
-	
+
+
+
 	public String toString () {
 		 return "country: '" + getCountryName() + "', capital: '" + getCapitalName() + "', latitude: '" + getCapitalLatitude() + "', longitude: '"+ getCapitalLongitude() + "', code: '"+ getCountryCode()  + "', continent: '"+ getContinentName();
 	}

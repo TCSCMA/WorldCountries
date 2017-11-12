@@ -16,7 +16,6 @@ import org.springframework.web.bind.annotation.RestController;
 import com.google.gson.Gson;
 import com.google.gson.reflect.TypeToken;
 import com.service.country.bean.WorldCountry;
-import com.service.population.bean.WorldPopulation;
 
 @RestController
 public class CountryController {
